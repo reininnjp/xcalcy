@@ -1,0 +1,12 @@
+#!/usr/bin/ruby -W0
+require 'rubygems'
+module Xcalcy
+  require 'date'
+  require 'open-uri'
+
+  require 'icalendar'
+
+  require "/usr/local/lib/libxcalcy/version.rb"
+  require "/usr/local/lib/libxcalcy/xcalcy.rb"
+end
+Xcalcy::Xcalcy.new.main(ARGV)
