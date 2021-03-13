@@ -13,4 +13,5 @@ Fedora (CentOS 8 でも出来るかも）<br/>
 sh fedora_install.sh<br/>
 微調整は、~/.conkyrc を弄ってください。<br/>
 後は、conky をログイン時に自動起動する様にしてください。<br/>
+透明化されない場合は、xcompmgrも自動起動させてみてください。<br/>
 
