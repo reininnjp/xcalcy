@@ -148,7 +148,7 @@ class Xcalcy::Xcalcy
       puts row.join(' ')
     }
     first = (Date.today - 31) - (Date.today.day)
-    last =  (Date.today + 31) - (Date.today.day)
+    last =  (Date.today + 62) - (Date.today.day)
     list_holidays(first,last)
   end
 
