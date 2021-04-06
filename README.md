@@ -15,3 +15,6 @@ sh fedora_install.sh<br/>
 後は、conky をログイン時に自動起動する様にしてください。<br/>
 透明化されない場合は、xcompmgrも自動起動させてみてください。<br/>
 
+どうも　Windows の改行コードになってしまうものがあります。
+sed -i 's/\r//g' hoge で修正してください。
+
